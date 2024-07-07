@@ -21,4 +21,3 @@ Feature: Check all Gender By name
   Scenario: Check Gender Sophia equals female 
     Given Check gender by name "Sophia"
 
-  
