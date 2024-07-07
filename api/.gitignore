@@ -1,5 +1,3 @@
-allure-report/
-allure-results/
 screenshots/*
 test_apk/*
 .env
@@ -12,3 +10,4 @@ _linux/
 .DS_Store
 features/support/images
 ./support/images/*
+report/*
