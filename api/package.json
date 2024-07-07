@@ -1,0 +1,36 @@
+{
+  "name": "cermati-api",
+  "version": "1.0.0",
+  "description": "Cermati API automation tes",
+  "type": "module",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "keywords": [
+    "API",
+    "Automation"
+  ],
+  "author": "Cermati SEIT",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@cucumber/cucumber-expressions": "^17.0.0",
+    "@cucumber/gherkin": "^27.0.0",
+    "app-module-path": "^2.2.0",
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.10",
+    "superagent": "^8.1.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.41",
+    "@types/chai": "^4.3.9",
+    "@types/superagent": "^4.1.20",
+    "@types/underscore": "^1.11.12",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.52.0",
+    "underscore": "^1.13.6",
+    "ls-lint": "^0.1.2",
+    "moment": "^2.29.4",
+    "crypto-js": "^4.1.1"
+  }
+}
